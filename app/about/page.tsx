@@ -1,5 +1,6 @@
 // about.tsx
 // import Image from "next/image";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -22,8 +23,8 @@ export default function About() {
 
       <main className="container mx-auto px-4 py-8">
 
-        <div className="bg-white shadow-md p-6 rounded-lg">
-          <div className="bg-[url(/about2.png)] bg-cover  h-[300px] rounded-lg" />
+        <div className=" flex justify-center gap-6 md:shadow-md p-6 rounded-lg">
+          <Image src="/about2.png" alt="About Us" width={1200} height={300} className="rounded-lg" />
         </div>
 
         <section id="about" className="mb-8 top-6">

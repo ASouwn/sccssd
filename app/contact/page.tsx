@@ -1,4 +1,5 @@
 // app/contact/page.tsx
+import Image from "next/image";
 export default function Contact() {
   return (
     <div className="bg-gray-100 min-h-screen">
@@ -23,7 +24,8 @@ export default function Contact() {
         <section id="contact-details" className="mb-8 h-screen ">
           <div className="flex flex-col justify-between items-start">
             <h2 className="text-3xl font-bold mb-8">联系我们</h2>
-            <div className="bg-[url(/contact.jpg)] w-full bg-cover h-[400px] rounded-lg mb-8"></div>
+            {/* <div className="bg-[url(/contact.jpg)] w-full bg-cover h-[400px] rounded-lg mb-8"></div> */}
+            <Image src="/contact.jpg" alt="About Us" width={1200} height={300} className="rounded-lg" />
             <div className="w-full mb-4 md:mb-0 flex flex-col items-center justify-center">
               <p className="text-lg mb-8">
                 如果您有任何问题或需要进一步的信息，请通过以下方式联系我们。

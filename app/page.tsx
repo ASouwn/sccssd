@@ -47,16 +47,16 @@ export default function Home() {
           <div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white shadow-md p-6 rounded-lg">
-                <div className="bg-[url(/product1.png)] bg-cover w-[400px] h-[300px] rounded-lg" />
+                <div className="bg-[url(/product1.png)] bg-cover md:w-[400px] md:h-[300px] w-[300px] h-[200px] rounded-lg" />
                 <h3 className="text-xl font-bold mt-2 text-gray-700">15吨产品货运索道运行展示</h3>
               </div>
               <div className="bg-white shadow-md p-6 rounded-lg">
-                <div className="bg-[url(/product2.jpg)] bg-cover w-[400px] h-[300px] rounded-lg" />
+                <div className="bg-[url(/product2.jpg)] bg-cover md:w-[400px] md:h-[300px] w-[300px] h-[200px] rounded-lg" />
                 <h3 className="text-xl font-bold mt-2 text-gray-700">循环式货运索道地锚过渡筒</h3>
                 {/* <p className="text-lg text-gray-700">产品2的详细描述...</p> */}
               </div>
               <div className="bg-white shadow-md p-6 rounded-lg">
-                <div className="bg-[url(/product3.jpg)] bg-cover w-[400px] h-[300px] rounded-lg" />
+                <div className="bg-[url(/product3.jpg)] bg-cover md:w-[400px] md:h-[300px] w-[300px] h-[200px] rounded-lg" />
                 <h3 className="text-xl font-bold mt-2 text-gray-700">复式卷扬机</h3>
                 {/* <p className="text-lg text-gray-700">产品3的详细描述...</p> */}
               </div>
