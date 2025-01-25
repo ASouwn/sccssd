@@ -5,13 +5,13 @@ export default function About() {
   return (
     <div className="bg-gray-100 min-h-screen">
       <header className="bg-white shadow-md">
-        <div className="container mx-auto px-4 py-6 flex justify-between items-center">
+        <div className="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center">
           <a href="/">
-            <h1 className="text-3xl font-bold ml-16">四川琛松索道工程有限公司</h1>
+            <h1 className="text-3xl font-bold md:ml-16">四川琛松索道工程有限公司</h1>
           </a>
           <nav className="mt-4">
-            <ul className="flex space-x-4 mr-16">
-              <li><a href="#about" className="text-gray-700 hover:text-blue-500">关于我们</a></li>
+            <ul className="flex space-x-4 md:mr-16">
+              <li><a href="/about" className="text-gray-700 hover:text-blue-500">关于我们</a></li>
               <li><a href="/products" className="text-gray-700 hover:text-blue-500">产品展示</a></li>
               <li><a href="/solutions" className="text-gray-700 hover:text-blue-500">解决方案</a></li>
               <li><a href="/contact" className="text-gray-700 hover:text-blue-500">联系我们</a></li>
@@ -171,7 +171,7 @@ export default function About() {
       {/* footer */}
       <footer className="bg-white shadow-md">
         <div className="container mx-auto px-4 py-6 text-center">
-          <p>&copy; 2023 四川琛松索道工程有限公司. All rights reserved.</p>
+          <p>&copy; 2024 四川琛松索道工程有限公司. All rights reserved.</p>
         </div>
       </footer>
     </div>

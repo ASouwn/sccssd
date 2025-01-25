@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "四川琛松索道有限公司",
-  description: "四川琛松索道有限公司",
+  title: "四川琛松索道工程有限公司",
+  description: "四川琛松索道工程有限公司",
 };
 
 export default function RootLayout({
