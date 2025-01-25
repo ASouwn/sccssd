@@ -6,7 +6,7 @@ export default function Home() {
       <header className="bg-white shadow-md">
         <div className="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center">
           <a href="/">
-            <h1 className="text-3xl font-bold md:ml-16">四川琛松索道工程有限公司</h1>
+            <h1 className="text-2xl md:text-3xl font-bold md:ml-16">四川琛松索道工程有限公司</h1>
           </a>
           <nav className="mt-4">
             <ul className="flex space-x-4 md:mr-16">
@@ -26,7 +26,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-4 text-black">关于我们</h2>
           <div className=" w-full md:w-full flex flex-col items-center">
             <div className="md:w-3/4 items-center justify-center grid grid-cols-1 md:flex md:flex-col gap-6">
-              <div className=" flex justify-center gap-6 shadow-md p-6 rounded-lg">
+              <div className=" flex justify-center gap-6 shadow-md p-2 rounded-lg">
                 <Image src="/about1.jpg" alt="About Us" width={1200} height={300} className="rounded-lg" />
               </div>
               <div className="bg-white shadow-md p-6 rounded-lg">
@@ -124,7 +124,7 @@ export default function Home() {
         </section>
 
         {/* 联系方式 */}
-        <section id="contact" className="mb-8 flex flex-col justify-center items-center">
+        <section id="contact" className="mb-8 flex flex-col justify-center md:items-center">
           <h2 className="text-4xl font-bold mb-4 text-black">联系我们</h2>
           <p className="text-lg text-gray-700">地址：四川省绵阳市涪城区西山东路48号2栋102室</p>
           <p className="text-lg text-gray-700">邮编：621000</p>

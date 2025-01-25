@@ -6,7 +6,7 @@ export default function Contact() {
       <header className="bg-white shadow-md">
         <div className="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center">
           <a href="/">
-            <h1 className="text-3xl font-bold md:ml-16">四川琛松索道工程有限公司</h1>
+            <h1 className="text-2xl md:text-3xl font-bold md:ml-16">四川琛松索道工程有限公司</h1>
           </a>
           <nav className="mt-4">
             <ul className="flex space-x-4 md:mr-16">
