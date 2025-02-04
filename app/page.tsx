@@ -2,7 +2,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
+
     <div className="bg-gray-100 min-h-screen">
+      <head>
+        <meta name="baidu-site-verification" content="codeva-OtOQ8cV6oy" />
+      </head>
       <header className="bg-white shadow-md">
         <div className="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center">
           <a href="/">
