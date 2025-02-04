@@ -1,4 +1,9 @@
 // app/products/page.tsx
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "产品展示",
+};
 export default function Products() {
   return (
     <div className="bg-gray-100 min-h-screen">

@@ -14,8 +14,11 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "四川琛松索道工程有限公司",
-  description: "四川琛松索道工程有限公司",
+  title: {
+    default: "四川琛松索道工程有限公司",
+    template: "%s | 四川琛松索道工程有限公司",
+  },
+  description: "四川琛松索道工程有限公司介绍网站",
 };
 
 export default function RootLayout({

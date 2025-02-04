@@ -1,4 +1,8 @@
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "解决方案",
+};
 export default function Solutions() {
   return (
     <div className="bg-gray-100 min-h-screen">

@@ -1,7 +1,11 @@
 // about.tsx
 // import Image from "next/image";
 import Image from "next/image";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "关于我们",
+};
 export default function About() {
   return (
     <div className="bg-gray-100 min-h-screen">

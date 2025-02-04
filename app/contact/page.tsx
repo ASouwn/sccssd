@@ -1,5 +1,10 @@
 // app/contact/page.tsx
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "联系方式",
+};
 export default function Contact() {
   return (
     <div className="bg-gray-100 min-h-screen">
