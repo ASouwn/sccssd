@@ -1,7 +1,6 @@
 // app/contact/page.tsx
 import Image from "next/image";
 import { Metadata } from "next";
-import { Header } from "../components/Header";
 import { ContactSection } from "../components/ContactSection";
 
 export const metadata: Metadata = {

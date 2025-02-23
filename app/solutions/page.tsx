@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import { Header } from "../components/Header";
 import { ContactSection } from "../components/ContactSection";
 import { SolutionCards } from "../components/SolutionCards";
 
