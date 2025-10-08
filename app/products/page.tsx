@@ -1,5 +1,4 @@
 // app/products/page.tsx
-import Image from "next/image";
 import { Metadata } from "next";
 import { ContactSection } from "../components/ContactSection";
 import HomeContent from "./HomeContent";
