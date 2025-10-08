@@ -396,6 +396,38 @@ function EquipmentList() {
     }
   ]
 
+  // 分页状态
+  const [currentPage, setCurrentPage] = useState(1)
+  const pageSize = 6
+  const totalPages = Math.ceil(equipment.length / pageSize)
+  const currentData = equipment.slice(
+    (currentPage - 1) * pageSize,
+    currentPage * pageSize
+  )
+
+  function ProductCard({ product }: { product: Product }) {
+    return (
+      <div className="bg-white shadow-md rounded-lg overflow-hidden w-[250px] md:w-[300px]">
+        <div className="w-full h-[200px] md:h-[250px] relative">
+          <Image
+            src={product.image}
+            alt={product.title}
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="p-4">
+          <h3 className="text-lg font-bold text-gray-800">{product.title}</h3>
+          {product.describe && (
+            <p className="text-gray-600 mt-2">{product.describe}</p>
+          )}
+          {product.feature && (
+            <p className="text-gray-500 mt-1 text-sm">{product.feature}</p>
+          )}
+        </div>
+      </div>
+    )
+  }
   return (
     <section className="py-12 px-4 md:px-12 bg-gray-50">
       {/* <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">卷扬机设备</h2>
